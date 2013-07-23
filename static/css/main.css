@@ -1,0 +1,26 @@
+body {
+  background-image: url("../img/bg-pattern.png");
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: white;
+  font-family: Armata;
+  /* Main marketing message and sign up button */
+  /* Supporting marketing content */ }
+  body .container-narrow {
+    margin: 0 auto;
+    max-width: 700px; }
+  body .container-narrow > hr {
+    margin: 30px 0; }
+  body .jumbotron {
+    margin: 60px 0;
+    text-align: center; }
+  body .jumbotron h1 {
+    font-size: 72px;
+    line-height: 1; }
+  body .jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px; }
+  body .marketing {
+    margin: 60px 0; }
+  body .marketing p + h4 {
+    margin-top: 28px; }

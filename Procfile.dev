@@ -1,0 +1,2 @@
+sass: sass --watch static/css/main.scss
+web: gunicorn main:app
