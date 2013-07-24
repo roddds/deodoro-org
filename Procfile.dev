@@ -1,2 +1,2 @@
 sass: sass --watch static/css/main.scss
-web: gunicorn main:app
+web: gunicorn main:app -b 0.0.0.0:8000
