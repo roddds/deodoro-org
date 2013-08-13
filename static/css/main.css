@@ -16,20 +16,21 @@ body {
     body .jumbotron h1 {
       font-size: 72px;
       line-height: 1; }
-  body .navlist a:hover {
-    text-decoration: none; }
-  body .navlist ul {
-    background-color: rgba(0, 0, 0, 0.4);
-    list-style: none;
-    margin: 0 auto;
-    max-width: 536px;
-    padding: 20px; }
-    body .navlist ul li {
-      padding: 10px;
-      display: inline; }
-    body .navlist ul .short {
-      padding-right: 10px;
-      padding-left: 5px; }
+  body .center {
+    text-align: center; }
+  body .navlist {
+    display: inline-block; }
+    body .navlist a:hover {
+      text-decoration: none; }
+    body .navlist ul {
+      padding: 0 20px 0 20px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      list-style: none; }
+      body .navlist ul li {
+        display: inline; }
+        body .navlist ul li img {
+          padding: 20px 10px 20px 10px; }
   body .flask {
     position: fixed;
     top: 5px;
@@ -37,7 +38,10 @@ body {
     opacity: 0.3; }
 
 @media all and (max-width: 699px) {
-  body ul li {
-    margin: auto; }
-    body ul li img {
-      width: 50px; } }
+  body {
+    padding-top: 10%; }
+    body .navlist ul li img {
+      width: 20%;
+      padding: 4% 2% 4% 2%; }
+    body .flask {
+      display: none; } }
