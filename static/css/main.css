@@ -35,3 +35,9 @@ body {
     top: 5px;
     right: 5px;
     opacity: 0.3; }
+
+@media all and (max-width: 699px) {
+  body ul li {
+    margin: auto; }
+    body ul li img {
+      width: 50px; } }
