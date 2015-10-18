@@ -20,7 +20,7 @@ body {
     text-align: center; }
   body .navlist {
     display: inline-block; }
-    body .navlist a:hover {
+    body .navlist a, body .navlist a:hover {
       text-decoration: none; }
     body .navlist ul {
       padding: 0 20px 0 20px;
