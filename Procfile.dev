@@ -1,2 +1,2 @@
-sass: sass --watch static/css/main.scss
+sass: sassc -w static/css/main.scss static/css/main.css
 web: gunicorn main:app -b 0.0.0.0:8000
