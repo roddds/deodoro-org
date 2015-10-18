@@ -6,4 +6,3 @@ argparse==1.2.1
 gunicorn==17.5
 itsdangerous==0.22
 wsgiref==0.1.2
-libsass==0.8.3
