@@ -1,0 +1,47 @@
+body {
+  background-image: url("../img/bg-pattern.png");
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: white;
+  font-family: Armata;
+  /* Main marketing message and sign up button */ }
+  body .container-narrow {
+    margin: 0 auto;
+    max-width: 700px; }
+  body .container-narrow > hr {
+    margin: 30px 0; }
+  body .jumbotron {
+    margin: 60px 0;
+    text-align: center; }
+    body .jumbotron h1 {
+      font-size: 72px;
+      line-height: 1; }
+  body .center {
+    text-align: center; }
+  body .navlist {
+    display: inline-block; }
+    body .navlist a, body .navlist a:hover {
+      text-decoration: none; }
+    body .navlist ul {
+      padding: 0 20px 0 20px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      list-style: none; }
+      body .navlist ul li {
+        display: inline; }
+        body .navlist ul li img {
+          padding: 20px 10px 20px 10px; }
+  body .flask {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    opacity: 0.3; }
+
+@media all and (max-width: 699px) {
+  body {
+    padding-top: 10%; }
+    body .navlist ul li img {
+      width: 20%;
+      padding: 4% 2% 4% 2%; }
+    body .flask {
+      display: none; } }
